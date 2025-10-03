@@ -28,6 +28,12 @@ TDD ensures requirements are testable, prevents regression, documents intended b
 
 ## Code Quality Standards
 
+### Automated Code Review (MANDATORY)
+- **MUST** invoke code-reviewer sub-agent after every code change
+- Review applies to all code: implementation, tests, configuration, and scripts
+- Address all findings before marking work complete
+- No code change is complete without automated review
+
 ### General Principles
 - Write self-documenting code with clear naming
 - Follow DRY (Don't Repeat Yourself) principles
